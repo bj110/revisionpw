@@ -1,0 +1,194 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - button "$ Currency ":
+    - strong: $
+    - text: Currency 
+  - list:
+    - listitem:
+      - link "":
+        - /url: https://naveenautomationlabs.com/opencart/index.php?route=information/contact
+      - text: "123456789"
+    - listitem:
+      - link " My Account":
+        - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/account
+    - listitem:
+      - link " Wish List (0)":
+        - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/wishlist
+    - listitem:
+      - link " Shopping Cart":
+        - /url: https://naveenautomationlabs.com/opencart/index.php?route=checkout/cart
+    - listitem:
+      - link " Checkout":
+        - /url: https://naveenautomationlabs.com/opencart/index.php?route=checkout/checkout
+- banner:
+  - link "naveenopencart":
+    - /url: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+    - img "naveenopencart"
+  - textbox "Search"
+  - button ""
+  - button " 0 item(s) - $0.00"
+- navigation:
+  - list:
+    - listitem:
+      - link "Desktops":
+        - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=20
+    - listitem:
+      - link "Laptops & Notebooks":
+        - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=18
+    - listitem:
+      - link "Components":
+        - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=25
+    - listitem:
+      - link "Tablets":
+        - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=57
+    - listitem:
+      - link "Software":
+        - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=17
+    - listitem:
+      - link "Phones & PDAs":
+        - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=24
+    - listitem:
+      - link "Cameras":
+        - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=33
+    - listitem:
+      - link "MP3 Players":
+        - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=34
+- img "MacBookAir"
+- link "iPhone 6":
+  - /url: index.php?route=product/product&path=57&product_id=49
+  - img "iPhone 6"
+- img "MacBookAir"
+- link "iPhone 6":
+  - /url: index.php?route=product/product&path=57&product_id=49
+  - img "iPhone 6"
+- text:  
+- heading "Featured" [level=3]
+- link "MacBook":
+  - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/product&product_id=43
+  - img "MacBook"
+- heading "MacBook" [level=4]:
+  - link "MacBook":
+    - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/product&product_id=43
+- paragraph: Intel Core 2 Duo processor Powered by an Intel Core 2 Duo processor at speeds up to 2.16GHz..
+- paragraph: "$602.00 Ex Tax: $500.00"
+- button " Add to Cart"
+- button ""
+- button ""
+- link "iPhone":
+  - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/product&product_id=40
+  - img "iPhone"
+- heading "iPhone" [level=4]:
+  - link "iPhone":
+    - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/product&product_id=40
+- paragraph: iPhone is a revolutionary new mobile phone that allows you to make a call by simply tapping a nam..
+- paragraph: "$123.20 Ex Tax: $101.00"
+- button " Add to Cart"
+- button ""
+- button ""
+- link "Apple Cinema 30\"":
+  - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/product&product_id=42
+  - img "Apple Cinema 30\""
+- heading "Apple Cinema 30\"" [level=4]:
+  - link "Apple Cinema 30\"":
+    - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/product&product_id=42
+- paragraph: The 30-inch Apple Cinema HD Display delivers an amazing 2560 x 1600 pixel resolution. Designed sp..
+- paragraph: "$110.00 $122.00 Ex Tax: $90.00"
+- button " Add to Cart"
+- button ""
+- button ""
+- link "Canon EOS 5D":
+  - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/product&product_id=30
+  - img "Canon EOS 5D"
+- heading "Canon EOS 5D" [level=4]:
+  - link "Canon EOS 5D":
+    - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/product&product_id=30
+- paragraph: Canon's press material for the EOS 5D states that it 'defines (a) new D-SLR category', while we'r..
+- paragraph: "$98.00 $122.00 Ex Tax: $80.00"
+- button " Add to Cart"
+- button ""
+- button ""
+- img "Harley Davidson"
+- img "Dell"
+- img "Disney"
+- img "Starbucks"
+- img "Nintendo"
+- img "NFL"
+- img "RedBull"
+- img "Sony"
+- img "Coca Cola"
+- img "Burger King"
+- img "Canon"
+- img "Harley Davidson"
+- img "Dell"
+- img "Disney"
+- img "Starbucks"
+- img "Nintendo"
+- img "NFL"
+- img "RedBull"
+- img "Sony"
+- img "Coca Cola"
+- img "Burger King"
+- text:  
+- contentinfo:
+  - heading "Information" [level=5]
+  - list:
+    - listitem:
+      - link "About Us":
+        - /url: https://naveenautomationlabs.com/opencart/index.php?route=information/information&information_id=4
+    - listitem:
+      - link "Delivery Information":
+        - /url: https://naveenautomationlabs.com/opencart/index.php?route=information/information&information_id=6
+    - listitem:
+      - link "Privacy Policy":
+        - /url: https://naveenautomationlabs.com/opencart/index.php?route=information/information&information_id=3
+    - listitem:
+      - link "Terms & Conditions":
+        - /url: https://naveenautomationlabs.com/opencart/index.php?route=information/information&information_id=5
+  - heading "Customer Service" [level=5]
+  - list:
+    - listitem:
+      - link "Contact Us":
+        - /url: https://naveenautomationlabs.com/opencart/index.php?route=information/contact
+    - listitem:
+      - link "Returns":
+        - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/return/add
+    - listitem:
+      - link "Site Map":
+        - /url: https://naveenautomationlabs.com/opencart/index.php?route=information/sitemap
+  - heading "Extras" [level=5]
+  - list:
+    - listitem:
+      - link "Brands":
+        - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/manufacturer
+    - listitem:
+      - link "Gift Certificates":
+        - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/voucher
+    - listitem:
+      - link "Affiliate":
+        - /url: https://naveenautomationlabs.com/opencart/index.php?route=affiliate/login
+    - listitem:
+      - link "Specials":
+        - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/special
+  - heading "My Account" [level=5]
+  - list:
+    - listitem:
+      - link "My Account":
+        - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/account
+    - listitem:
+      - link "Order History":
+        - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/order
+    - listitem:
+      - link "Wish List":
+        - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/wishlist
+    - listitem:
+      - link "Newsletter":
+        - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/newsletter
+  - separator
+  - paragraph:
+    - text: Powered By
+    - link "OpenCart":
+      - /url: http://www.opencart.com
+    - text: naveenopencart © 2025
+```
