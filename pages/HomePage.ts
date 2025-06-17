@@ -37,13 +37,15 @@ export class HomePage {
 
     //Click "My Account" link
     async clickMyAccount() {
-        try {
-            await this.lnkMyAccount.click();
-        } catch (error) {
-            console.log(`Exception occured while clicking 'My Account': ${error}`);
-            throw error;
-        }
+    try {
+        // Wait for the 'My Account' element to be visible before clicking
+        await this.lnkMyAccount.waitFor({ state: 'visible', timeout: 10000 });
+        await this.lnkMyAccount.click();
+    } catch (error) {
+        console.log(`Exception occurred while clicking 'My Account': ${error}`);
+        throw error;
     }
+}
 
     // Click "Register" link
     async clickRegister() {

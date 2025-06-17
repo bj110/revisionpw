@@ -27,6 +27,7 @@ test.beforeEach(async({page})=>{
     //1) Navigate to the application URL
     config = new TestConfig();//Load config(URL, credentials)
     await page.goto(config.appUrl);//navigate to base URL
+    await page.waitForLoadState('networkidle'); // Ensures all network calls are done
 
     //initialize page objects
 

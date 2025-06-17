@@ -29,6 +29,7 @@ test.beforeEach(async ({ page }) => {
     //1) Navigate to application URL
     const config = new TestConfig();
     await page.goto(config.appUrl);
+    await page.waitForLoadState('networkidle'); // Ensures all network calls are done
     await page.waitForTimeout(3000);
 
     homePage = new HomePage(page);
